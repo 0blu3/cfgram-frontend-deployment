@@ -1,0 +1,20 @@
+@import "../../../scss/lib/theme/vars";
+
+.create-gallery {
+  input[type="text"] {
+    margin: $gutter-std 0 1% 5%;
+    width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $brand-tertiary;
+  }
+
+  button {
+    float: right;
+    padding: 2% 6%;
+    text-align: right;
+    margin: 0 5% 0 0;
+    border-radius: $btn-radius;
+
+  }
+}

@@ -1,0 +1,32 @@
+@import '../theme/vars';
+
+footer {
+  background: $brand-tertiary;
+  font-family: Helvetica;
+  color: $white;
+  height: 8vw;
+  margin-top: $gutter-std * 2;
+}
+
+.social-icon {
+  li {
+    .sprite-facebook {
+      background: url('https://s3-us-west-2.amazonaws.com/slugtestbucket/social-icons-sprite-sheet.png') no-repeat -36px -27px;
+      width: 128px;
+      height: 128px;
+    }
+
+
+    .sprite-twitter {
+      background: url('https://s3-us-west-2.amazonaws.com/slugtestbucket/social-icons-sprite-sheet.png') no-repeat -436px -27px;
+      width: 128px;
+      height: 128px;
+    }
+
+    .sprite-instagram {
+      background: url('https://s3-us-west-2.amazonaws.com/slugtestbucket/social-icons-sprite-sheet.png') no-repeat -636px -27px;
+      width: 128px;
+      height: 128px;
+    }
+  }
+}

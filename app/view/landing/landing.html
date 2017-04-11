@@ -1,0 +1,40 @@
+<section class="landing">
+  <div class="join-container"
+    ng-if="landingCtrl.showSignup">
+    <div class="join-inner">
+      <signup></signup>
+      <p>already a member?</p>
+      <a href="/#/join#login" 
+         ng-click="landingCtrl.showSignup=false">
+         sign in here.
+      </a>
+    </div>
+  </div>
+
+  <div class="join-container"
+       ng-if="!landingCtrl.showSignup">
+    <div class="join-inner">
+      <login></login>
+      <p>want to sign up?</p>
+      <a href="/#/join#signup"
+         ng-click="landingCtrl.showSignup=true">
+         sign up here.
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="test-section">
+  <section class="accordion-test">
+    <uib-accordion>
+      <p uib-accordion-group class="panel-default" heading="stuff">
+        Horrido! Das kess Scharlatan. Die Übeltäter foppen die hold Kleinod. Das ausgemergelt Erbfeind. Die gemach Blockwart. Taugenichts und Promenadenmischung festnageln frivol Erbfeind. Der Gedudel katzbuckeln der geflissentlich Zeche. Hanswurst und Rädelsführer stagnieren hanebüchen Aue. Das grobschlächtig Kesselflicker. Das Weltschmerz frohlocken die blümerant Lümmel. Der feist Quacksalber lustwandeln. Sittenstrolch und Aue stagnieren einfältig Firlefanz. Maulaffen feilhalten!
+      </p>
+
+      <p uib-accordion-group class="panel-default" heading="things">
+        Horrido! Das kess Scharlatan. Die Übeltäter foppen die hold Kleinod. Das ausgemergelt Erbfeind. Die gemach Blockwart. Taugenichts und Promenadenmischung festnageln frivol Erbfeind. Der Gedudel katzbuckeln der geflissentlich Zeche. Hanswurst und Rädelsführer stagnieren hanebüchen Aue. Das grobschlächtig Kesselflicker. Das Weltschmerz frohlocken die blümerant Lümmel. Der feist Quacksalber lustwandeln. Sittenstrolch und Aue stagnieren einfältig Firlefanz. Maulaffen feilhalten!
+      </p>      
+      
+    </uib-accordion>
+  </section>
+</section>

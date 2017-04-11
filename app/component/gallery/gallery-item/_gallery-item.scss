@@ -1,0 +1,43 @@
+@import "../../../scss/lib/theme/vars";
+
+.gallery-item-container {
+  clear: both;
+  padding-top: $gutter-std;
+
+  .gallery-item {
+    margin: $gutter-std 0 1% 5%;
+    padding: $gutter-sm;
+    background: $brand-tertiary;
+    font-size: 2vw;
+    border-radius: $btn-radius;
+    width: 90%;
+  }
+
+  .del-btn {
+    color: $black;
+    background: $brand-tertiary;
+  }
+  
+  .edit-btns {
+    text-align: right;
+    margin: 0 5% 0 0;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .current-item {
+    div {
+      margin-bottom: $gutter-sm;
+
+      &:last-child {
+        margin-bottom: 1vw;
+      }
+
+      .item-label {
+        font-weight: bold;
+      }
+    }
+  }
+}
